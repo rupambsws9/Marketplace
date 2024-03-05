@@ -17,12 +17,12 @@ const Navbar = () => {
       </Link>
       <Link to="/cart">
         <div className="cart-btn">
-          <img src="cartlogo" alt="cart"></img>
+          <img src={cartlogo} alt="cart"></img>
           <span className="cart-icon">0</span>
         </div>
       </Link>
       <Link to="userprofile">
-        <img src="profilelogo" alt="profile" className="profile-icon"></img>
+        <img src={profilelogo} alt="profile" className="profile-icon"></img>
       </Link>
     </nav>
   );
